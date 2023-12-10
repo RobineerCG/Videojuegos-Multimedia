@@ -1,0 +1,52 @@
+.app {
+    background: #f1f1f1;
+    display: grid;
+    /* Definiendo areas del Grid */
+    /* Debemos definir las áreas en el orden en que deben colocarse en la página, la definición se hizo en el orden correcto. */
+    grid-template-areas: 
+    "encabezado"
+    "contenido"
+    "rodapie";
+    /* Colocamos columnas de tamaño auto  */
+    grid-template-columns: auto;
+    /* Nuestro encabezado va a ser de unos 50px, mientras que el contendio y el rodapie serán autosmaticos */
+    grid-template-rows: 50px 100vh auto;
+    /* (vh stands for “viewport-height.”) It lets you make things a certain percentage of the height of your browser window itself—whether that “viewport” is a tablet screen, a phone screen (in portrait or landscape), a laptop, a desktop, a smart fridge(?), or what have you. */
+}
+
+.encabezado{
+    align-items: center;
+    display: flex;
+    grid-area: encabezado;
+    padding: 0 2rem;
+}
+
+.menu__link{
+    color: #333333;
+    padding: .5rem 1rem;
+}
+
+.menu__link:hover, .menu__link:active{
+    border-bottom: 2px solid #0073e6;
+}
+
+.encabezado {
+    /* colocamos un color de fondo únicamente para visualizar nuestro contenido wn las 3 secciones*/
+    /* background: #00cc99; */
+    /* Aquí definimos las áreas */
+    grid-area: encabezado;
+}
+.contenido {
+    /* background: #ff8080; */
+    grid-area: contenido;
+    padding: 0 2rem ;
+}
+
+.rodapie { 
+
+    /*  background: #fdfdfd;  */
+     color: #333333;
+    grid-area: rodapie; 
+    padding: 1rem 0;
+    text-align: center;   
+}
