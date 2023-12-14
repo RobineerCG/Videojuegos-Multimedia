@@ -8,7 +8,7 @@
 }
 
 .destaques__principal{
-    background: url("../img/fortnite.jpg") center / cover no-repeat;
+    background: url("../../imagenes/Videojuegos/persona5royal2.jpg") center / cover no-repeat;
     /* Con la línea de arriba ahorramos el código de abajo */
 
     /* background-size: cover;
@@ -27,7 +27,7 @@
 }
 
 .destaques__secundario:nth-child(2){ /* Colocamos eso porque solo aplicaremos a un hijo */
-    background: url("../img/pubg.jpg") center / cover  no-repeat;
+    background: url("../../imagenes/Videojuegos/EldenRing.jpeg") center / cover  no-repeat;
     /* background-size: cover; /* Cubre todo el background 
     background-position: center;
     background-repeat: no-repeat; */
@@ -42,21 +42,21 @@
 }
 
 .destaques__secundario:nth-child(3){
-    background: url("../img/slack.png") center / cover  no-repeat;
+    background: url("../../imagenes/Videojuegos/RedDeadRedemption2.jpeg") center / cover  no-repeat;
 
     grid-column: 4 / 5;
     grid-row: 2 / 3;
 }
 
 .destaques__secundario:nth-child(4){
-    background: url("../img/whatsapp.png") center / cover  no-repeat;
+    background: url("../../imagenes/Videojuegos/TLoZTearsOfTheKingdom.jpg") center / cover  no-repeat;
 
     grid-column: 4 / 5;
     grid-row: 3 / 4;
 }
 
 .destaques__secundario:nth-child(5){
-    background: url("../img/cs-go.jpg") center / cover no-repeat ;
+    background: url("../../imagenes/Videojuegos/Baldur_sGate3.jpg") center / cover no-repeat ;
 
     grid-column: 3 / 4;
     grid-row: 3/4;
